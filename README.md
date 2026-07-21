@@ -1,62 +1,36 @@
-# 📦 Gerenciador de Estoque
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Projeto simples de gerenciador de estoque feito com HTML, CSS e JavaScript puro, com dados armazenados no `localStorage` do navegador.
+## Getting Started
 
-## 🧠 Objetivo
+First, run the development server:
 
-Este projeto foi criado com o objetivo de praticar lógica de programação, manipulação do DOM e conceitos básicos de armazenamento local utilizando apenas tecnologias front-end.
-
----
-
-## ⚙️ Funcionalidades
-
-- ✅ Adicionar novos produtos
-- ✅ Listar todos os produtos cadastrados
-- ✅ Editar produtos
-- ✅ Excluir produtos
-- ✅ Armazenamento persistente com `localStorage`
-
----
-
-## 📸 Demonstração
-
-> https://ivanunes.github.io/gerenciador-estoque
-
----
-
-## 🚀 Tecnologias usadas
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- `localStorage` do navegador
-
----
-
-## 🛠️ Como rodar o projeto
-
-1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/gerenciador-estoque.git
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 💡 Próximos passos
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Responsividade para mobile
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Filtro de busca
+## Learn More
 
-- Modal para edição em vez de prompt
+To learn more about Next.js, take a look at the following resources:
 
-- Migração para React
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-<br>
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<img src="https://images.icon-icons.com/2429/PNG/512/gmail_logo_icon_147283.png" style="width:20px"> Email: ivanunes633@gmail.com <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" style="width:20px"> GitHub: https://github.com/ivanunes <br>
-<img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" style="width:20px"> Linkedin: https://www.linkedin.com/in/ivanunes/ 
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
